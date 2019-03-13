@@ -7,6 +7,28 @@
 // organization
 // include "/etc/bind/zones.rfc1918";
 
+#
+# Your Private white and blacklist
+#
+zone "my-private-whitelist" {
+        type master;
+        file "/var/lib/bind/my-private-whitelist.hosts";
+        allow-transfer {
+                };
+        allow-query {
+                localhost;
+                };
+};
+
+zone "my-private-blacklist" {
+        type master;
+        file "/var/lib/bind/my-private-blacklist.hosts";
+        allow-transfer {
+                };
+        allow-query {
+                localhost;
+                };
+};
 
 #------------------------------------------------------------------------------
 # RPZ Whitelist
