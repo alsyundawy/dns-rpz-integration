@@ -1,0 +1,6 @@
+response-policy {
+        zone "whitelist.mypdns.cloud";
+        zone "youtube.mypdns.cloud";
+        zone "rpz.mypdns.cloud";
+        zone "drop.rpz.spamhaus.org";
+};
