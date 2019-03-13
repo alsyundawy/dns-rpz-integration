@@ -1,0 +1,78 @@
+//
+// Do any local configuration here
+//
+// for any issue please visit https://github.com/spirillen/dns-rpz-integration/issues
+// Copyright NON-commercial usage and https://github.com/spirillen/dns-rpz-integration/blob/master/LICENSE
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+// include "/etc/bind/zones.rfc1918";
+
+
+#------------------------------------------------------------------------------
+# RPZ Whitelist
+#------------------------------------------------------------------------------
+
+zone "whitelist.mypdns.cloud" {
+        type master;
+        file "/var/lib/bind/whitelist.mypdns.cloud.hosts";
+        allow-transfer {
+                trusted;
+                127/8;
+                localhost;
+                };
+        allow-query {
+                trusted;
+                localhost;
+                };
+        also-notify {
+                192.168.1.30;
+                };
+};
+
+
+#------------------------------------------------------------------------------
+# Local RPZ Files
+#------------------------------------------------------------------------------
+
+zone "rpz.mypdns.cloud" {
+        type master;
+        file "/var/lib/bind/db.rpz.mypdns.cloud";
+        allow-transfer {
+                trusted;
+                localhost;
+                127/8;
+                };
+        also-notify {
+                192.168.1.30;
+                };
+};
+
+#------------------------------------------------------------------------------
+# YouTube RPZ Files, for blocking ads on youtube
+#------------------------------------------------------------------------------
+
+zone "youtube.mypdns.cloud" {
+        type master;
+        file "/var/lib/bind/youtube.mypdns.cloud.hosts";
+        allow-transfer {
+                trusted;
+                localhost;
+                127/8;
+                };
+        also-notify {
+                192.168.1.30;
+                };
+};
+
+#------------------------------------------------------------------------------
+# Spamhnaus RPZ Files, License required, but free for open source project
+#------------------------------------------------------------------------------
+
+zone "drop.rpz.spamhaus.org" {
+        type slave;
+        file "/var/lib/bind/dbx.drop.rpz.spamhaus.org";
+        masters {
+                2a01:4f9:c010:2166::53;
+                2a01:4f8:1c1c:abe4::53;
+                };
+};
