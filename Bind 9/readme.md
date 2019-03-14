@@ -5,6 +5,6 @@ To implament the RPZ from the [rpz-block-list](https://github.com/spirillen/rpz-
 * [whitelist.mypdns.cloud.hosts](https://raw.githubusercontent.com/spirillen/rpz-block-list/master/whitelist.mypdns.cloud.hosts)
 
 
-write mote text here
+Write more text here
 ====================
 Or at least make some good documentation that can help understand the usage of our project
