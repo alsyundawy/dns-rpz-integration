@@ -6,19 +6,13 @@
 Welcome to Integration of DNS RPZ's documentation!
 ==================================================
 
-.. NOTE:: note thos
-
-.. warning:: Warning you
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
 Indices and tables
 ==================
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+.. NOTE:: note this
+
+.. warning:: Warning you
