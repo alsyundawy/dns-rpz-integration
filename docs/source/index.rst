@@ -42,7 +42,7 @@ Playground
       
 .. rubric:: rubric
 
-.. note::
+.. note:: rubric
 
    This directive creates a paragraph heading that is not used to create a table of contents node.
 
