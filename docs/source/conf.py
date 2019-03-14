@@ -126,6 +126,7 @@ html_theme_options = {
     "footertextcolor": "limegreen",
     "sidebarbgcolor": "black",
     "sidebartextcolor": "limegreen"
+	"bgcolor": "mintcream"
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
