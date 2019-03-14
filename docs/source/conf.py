@@ -125,7 +125,9 @@ html_theme_options = {
     "footerbgcolor": "#000000",
     "footertextcolor": "limegreen",
     "sidebarbgcolor": "black",
-    "sidebartextcolor": "limegreen"
+    "headbgcolor": "black",
+    "headtextcolor": "limegreen",
+    "sidebartextcolor": "limegreen",
 	"bgcolor": "mintcream"
 }
 
