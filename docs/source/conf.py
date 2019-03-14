@@ -120,7 +120,7 @@ html_theme = 'classic'
 html_theme_options = {
     "rightsidebar": "false",
     "stickysidebar": "true",
-    "collapsiblesidebar": "true",
+    "collapsiblesidebar": "false",
     "externalrefs": "true",
     "footerbgcolor": "000000",
     "footertextcolor": "limegreen"
