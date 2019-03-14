@@ -5,4 +5,4 @@
    index
    install
    support
-   Bind9/index
+   Bind 9/*
