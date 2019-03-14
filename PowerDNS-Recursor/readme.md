@@ -10,3 +10,5 @@ To use this file, place it in you're /etc/powerdns/conf/ folder and call it from
 ```lua
 dofile('/etc/powerdns/conf/mypdns-rpz-zones.lua')
 ```
+
+### PS: Orders Matter, so be carefull in which line you place this...
