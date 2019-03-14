@@ -120,7 +120,7 @@ html_theme = 'classic'
 html_theme_options = {
     "rightsidebar": "true",
     "stickysidebar": "true",
-    "collapsiblesidebar": "true";
+    "collapsiblesidebar": "true",
     "externalrefs": "true"
 }
 
