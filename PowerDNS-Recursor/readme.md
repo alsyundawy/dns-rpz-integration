@@ -7,6 +7,8 @@ But if you know how to setup this proberly you are most welcome to contribute.
 
 To use this file, place it in you're /etc/powerdns/conf/ folder and call it from recursor.conf with:
 
-```
+```lua
 dofile('/etc/powerdns/conf/mypdns-rpz-zones.lua')
 ```
+
+### PS: Orders Matter, so be carefull in which line you place this...
