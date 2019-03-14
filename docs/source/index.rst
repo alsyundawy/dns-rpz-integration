@@ -16,3 +16,6 @@ Indices and tables
 .. NOTE:: note this
 
 .. warning:: Warning you
+
+.. versionadded:: 2.5
+   The *spam* parameter.
