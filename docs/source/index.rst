@@ -17,5 +17,36 @@ Indices and tables
 
 .. warning:: Warning you
 
+Playground
+^^^^^^^^^^
+.. deprecated:: 3.1
+   Use :func:`spam` instead.
+
 .. versionadded:: 2.5
    The *spam* parameter.
+
+.. versionchanged:: 2.5
+   The *spam* parameter.
+
+
+.. seealso:: modules :py:mod:`zipfile`, :py:mod:`tarfile
+
+
+.. seealso::
+
+   Module :py:mod:`zipfile`
+      Documentation of the :py:mod:`zipfile` standard module.
+
+   `GNU tar manual, Basic Tar Format <http://link>`_
+      Documentation for tar archive files, including GNU tar extensions.
+      
+.. rubric:: rubric
+
+.. hlist::
+   :columns: 3
+
+   * A list of
+   * short items
+   * that should be
+   * displayed
+   * horizontally
