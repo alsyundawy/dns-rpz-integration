@@ -1,5 +1,5 @@
-Bind 9 Integration
-==================
+Bind 9
+=====
 
 To implement the RPZ from the `rpz-block-list`_ into your bind server you can do Several thing like default RPZ synchronization or better use rsync from the master zone files
 
