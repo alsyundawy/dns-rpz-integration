@@ -57,3 +57,9 @@ Playground
    * displayed
    * horizontally
    * from hlist
+
+.. literalinclude:: Bind9/index.rst
+   :language: ruby
+   :emphasize-lines: 12,15-18
+   :linenos:
+   :encoding: utf-8
