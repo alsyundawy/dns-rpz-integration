@@ -1,13 +1,13 @@
 DNS RPZ's intro!
-====================
+================
 
 Here will be a fair guide to how you implant our free open DNS Firewall
 
 Indices and tables
-==================
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`genindex`
-\* :ref:`modindex`
+* :ref:`modindex`
 * :ref:`search`
 
 .. NOTE:: note this
