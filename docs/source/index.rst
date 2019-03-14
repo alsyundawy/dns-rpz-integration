@@ -54,7 +54,7 @@ Playground
    * from hlist
 
 .. literalinclude:: Bind 9/index.rst
-   :language: c++
+   :language: C++
    :linenos:
    :encoding: utf-8
    :caption: named.conf.default-zones
