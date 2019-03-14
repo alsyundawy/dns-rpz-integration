@@ -122,7 +122,7 @@ html_theme_options = {
     "stickysidebar": "true",
     "collapsiblesidebar": "false",
     "externalrefs": "true",
-    "footerbgcolor": "000000",
+    "footerbgcolor": "#000000",
     "footertextcolor": "limegreen"
 }
 
