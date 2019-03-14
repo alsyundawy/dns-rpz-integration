@@ -17,7 +17,7 @@ Playground
 .. deprecated:: 3.1
    Use :func:`spam` instead.
 
-.. versionadded:: 2.5
+.. versionadded:: READTHEDOCS_VERSION
    The *spam* parameter.
 
 .. versionchanged:: 2.5
