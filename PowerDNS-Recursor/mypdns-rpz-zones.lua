@@ -20,6 +20,11 @@
    Unfortunally there is currently no simple way to integrate this whitelist
    into you're Recursor.
    But if you know how to setup this proberly you are most welcome to contribute.
+
+  To use this file, place it in you're /etc/powerdns/conf/ folder and
+  call it from recursor.conf with:
+  dofile('/etc/powerdns/conf/mypdns-rpz-zones.lua')
+
 --]]
 
 -- This should be the whitelisting of domains that by error should be inflicted
