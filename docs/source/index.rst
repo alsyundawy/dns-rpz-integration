@@ -42,6 +42,12 @@ Playground
       
 .. rubric:: rubric
 
+.. note::
+
+   This directive creates a paragraph heading that is not used to create a table of contents node.
+
+   If the title of the rubric is “Footnotes” (or the selected language’s equivalent), this rubric is ignored by the LaTeX writer, since it is assumed to only contain footnote definitions and therefore would create an empty heading.
+
 .. hlist::
    :columns: 3
 
