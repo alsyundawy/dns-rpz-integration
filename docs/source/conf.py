@@ -123,7 +123,9 @@ html_theme_options = {
     "collapsiblesidebar": "false",
     "externalrefs": "true",
     "footerbgcolor": "#000000",
-    "footertextcolor": "limegreen"
+    "footertextcolor": "limegreen",
+    "sidebarbgcolor": "black",
+    "sidebartextcolor": "limegreen"
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
