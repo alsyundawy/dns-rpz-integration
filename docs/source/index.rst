@@ -1,5 +1,7 @@
-DNS RPZ's documentation!
+DNS RPZ's intro!
 ====================
+
+Here will be a fair guide to how you implant our free open DNS Firewall
 
 Indices and tables
 ==================
@@ -53,7 +55,7 @@ Playground
    * horizontally
    * from hlist
 
-.. literalinclude:: Bind 9/index.rst
+\.. literalinclude:: Bind 9/index.rst
    :language: python
    :linenos:
    :encoding: utf-8
