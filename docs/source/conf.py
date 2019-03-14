@@ -127,6 +127,7 @@ html_theme_options = {
     "sidebarbgcolor": "black",
     "headbgcolor": "darkslategray",
     "headtextcolor": "seashell",
+    "headlinkcolor": "seashell",
     "sidebartextcolor": "limegreen",
 	"bgcolor": "mintcream"
 }
