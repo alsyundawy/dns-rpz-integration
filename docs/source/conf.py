@@ -118,10 +118,11 @@ html_theme = 'classic'
 # documentation.
 #
 html_theme_options = {
-    "rightsidebar": "true",
+    "rightsidebar": "false",
     "stickysidebar": "true",
     "collapsiblesidebar": "true",
-    "externalrefs": "true"
+    "externalrefs": "true",
+    "footerbgcolor": "limegreen"
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
