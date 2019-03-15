@@ -8,11 +8,11 @@ Table of Contents
    index
    install
    support
-   Bind 9/*
+   Bind_9/*
    *
 
    :hidden:
 
-   'Bind 9/named.conf.default-zones'
-   'Bind 9/named.conf.options'
-   'Bind 9/named.conf.rpz-zones'
+   'Bind_9/named.conf.default-zones'
+   'Bind_9/named.conf.options'
+   'Bind_9/named.conf.rpz-zones'
