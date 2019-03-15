@@ -13,6 +13,6 @@ Table of Contents
 
    :hidden:
 
-   'Bind 9/named.conf.default-zones
+   'Bind 9/named.conf.default-zones'
    'Bind 9/named.conf.options'
    'Bind 9/named.conf.rpz-zones'
