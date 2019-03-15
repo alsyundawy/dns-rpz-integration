@@ -1,0 +1,124 @@
+acl trusted {
+        192.168.0.0/24;
+        192.168.1.0/24;
+        0000::ffff/56;
+        };
+
+options {
+        directory "/var/cache/bind";
+
+        // If there is a firewall between you and nameservers you want
+        // to talk to, you may need to fix the firewall to allow multiple
+        // ports to talk.  See http://www.kb.cert.org/vuls/id/800113
+
+        dnssec-validation auto;
+
+        auth-nxdomain no;    # conform to RFC1035
+        listen-on-v6 { any; };
+
+        key-directory "/etc/bind";
+        pid-file "/var/run/named.pid";
+        recursing-file "named.recursing";
+        statistics-file "rndc.stats";
+        recursion yes;
+        allow-transfer{ none; };
+        ixfr-from-differences yes;
+        empty-zones-enable yes;
+        allow-recursion  {
+                ::1;
+                127.0.0.0/8;
+                trusted;
+        };
+        allow-query-cache {
+                ::1;
+                127.0.0.0/8;
+                trusted;
+        };
+
+include "/etc/bind/named.conf.rpz-zones";
+
+};
+
+logging {
+        channel null {
+                null;
+                };
+
+        channel bindlog {
+                file "/var/log/named/bind.log";
+                print-category yes;
+                print-severity yes;
+                print-time yes;
+                };
+
+        channel rpzlog {
+                file "/var/log/named/rpz.log";
+                print-category yes;
+                print-severity yes;
+                print-time yes;
+                };
+
+        category rpz {
+                rpzlog;
+                };
+        category edns-disabled {
+                null;
+                };
+        category delegation-only {
+                bindlog;
+                };
+        category lame-servers {
+                null;
+                };
+        category dispatch {
+                null;
+                };
+        category queries {
+                null;
+                };
+        category update-security {
+                bindlog;
+                };
+        category update {
+                bindlog;
+                };
+        category network {
+                bindlog;
+                };
+        category unmatched {
+                null;
+                };
+        category client {
+                null;
+                };
+        category notify {
+                bindlog;
+                };
+        category xfer-out {
+                bindlog;
+                };
+        category xfer-in {
+                bindlog;
+                };
+        category resolver {
+                null;
+                };
+        category config {
+                bindlog;
+                };
+        category database {
+                null;
+                };
+        category general {
+                bindlog;
+                };
+        category default {
+                bindlog;
+                };
+};
+
+include "/etc/bind/rndc.key";
+
+controls {
+        inet 127.0.0.1 port 953 allow { 127.0.0.1; } keys { rndc-key; };
+};
