@@ -5,7 +5,8 @@
 rpzFile("/etc/powerdns/rpz/my-rules.rpz")
 
 
-dofile("/etc/powerdns/rpz/adult.mypdns.cloud.rpz")
+-- dofile("/etc/powerdns/rpz/adult.mypdns.cloud.rpz")
+-- dofile("/etc/powerdns/rpz/strict.adult.mypdns.cloud.rpz")
 dofile("/etc/powerdns/rpz/adware.mypdns.cloud.rpz")
 dofile("/etc/powerdns/rpz/coinblocker.mypdns.cloud.rpz")
 dofile("/etc/powerdns/rpz/gambling.mypdns.cloud.rpz")
