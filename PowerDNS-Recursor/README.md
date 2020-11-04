@@ -15,8 +15,7 @@ It's working if you get NXDOMAIN
 
 if you can confirmed it is working, change your dns to 127.0.0.1
 
-Locate blocked domains
-^^^^^^^^^^^^^^^^^^^^^^
+## Locate blocked domains
 
 To locate what domain is being blocked, you should be using your log files.
 
