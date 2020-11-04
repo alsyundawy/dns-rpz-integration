@@ -21,13 +21,15 @@ To locate what domain is being blocked, you should be using your log files.
 
 First you turn on tracing with
 
-```shell
+```
+lang=shell
 sudo rec_control trace-regex .
 ```
 
 Next you'll simply monitors your log file
 
-```shell
+```
+lang=shell
 sudo journalctl -fu pdns-recursor | grep -iE '(RPZ Hit|nxdomain)'
 ```
 
@@ -45,6 +47,7 @@ If you choose to follow this bad path to an whitelist the record(s), don't bllam
 
 OOh don't forget to disable the logging or your disk will soon be filled with a log
 
-```shell
+```
+lang=shell
 sudo rec_control trace-regex
 ```
