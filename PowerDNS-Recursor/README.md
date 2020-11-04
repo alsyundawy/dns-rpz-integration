@@ -43,3 +43,9 @@ This is a way to locate what domains is being denied by any rpz zone. From the `
 Next you simply have to eigther aknowledge you where about to do something unfortunately.
 
 If you choose to follow this bad path to an whitelist the record(s), don't bllame us, you wasn't warned... **We did warn you**
+
+OOh don't forget to disable the logging or your disk will soon be filled with a log
+
+```shell
+sudo rec_control trace-regex
+```
