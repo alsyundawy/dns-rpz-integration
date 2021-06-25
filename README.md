@@ -1,4 +1,4 @@
-To read more about who mypdns.org is please have a look at [Our domains and why they are protected....](https://www.mypdns.org/w/whois/)
+To read more about who mypdns.org is please have a look at [Our domains and why they are protected....](https://mypdns.org/MypDNS/support/-/wikis/whois/)
 
 # Integrating RPZ sources into your DNS Server
 

@@ -1,1 +1,1 @@
-Find the code of conduct at https://www.mypdns.org/w/codeofconduct/
+Find the code of conduct at https://mypdns.org/MypDNS/support/-/wikis/codeofconduct/

@@ -19,9 +19,10 @@
 
 # -- Project information -----------------------------------------------------
 
+from recommonmark.parser import CommonMarkParser
 project = 'Integration of DNS RPZ'
-copyright = '2019, www.mypdns.org'
-author = 'www.mypdns.org'
+copyright = '2019, mypdns.org'
+author = 'mypdns.org'
 
 # The short X.Y version
 version = '0.0.1 alpha'
@@ -59,7 +60,6 @@ primary_domain = 'lua'
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-from recommonmark.parser import CommonMarkParser
 
 source_parsers = {
     '.md': CommonMarkParser,
@@ -129,7 +129,7 @@ html_theme_options = {
     "headtextcolor": "seashell",
     "headlinkcolor": "seashell",
     "sidebartextcolor": "limegreen",
-	"bgcolor": "mintcream"
+    "bgcolor": "mintcream"
 }
 
 html_favicon = 'common/favicon.ico'
@@ -181,7 +181,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'IntegrationofDNSRPZ.tex', 'Integration of DNS RPZ Documentation',
-     'www.mypdns.org', 'manual'),
+     'mypdns.org', 'manual'),
 ]
 
 
