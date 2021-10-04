@@ -21,20 +21,19 @@ To locate what domain is being blocked, you should be using your log files.
 
 First you turn on tracing with
 
-```
-lang=shell
+```shell
 sudo rec_control trace-regex .
 ```
 
 Next you'll simply monitors your log file
 
-```
-lang=shell
+```shell
 sudo journalctl -fu pdns-recursor | grep -iE '(RPZ Hit|nxdomain)'
 ```
 
 You will see records ala
-```
+
+```log
 Nov 04 02:02:28 e350c pdns_recursor[40231]: graph.facebook.com|A: RPZ Hit; PolicyName=tracking.mypdns.cloud; Trigger=graph.facebook.com; Hit=graph.facebook.com; Type=QName; Kind=.
 Nov 04 02:02:48 e350c pdns_recursor[40231]: graph.facebook.com|AAAA: RPZ Hit; PolicyName=tracking.mypdns.cloud; Trigger=graph.facebook.com; Hit=graph.facebook.com; Type=QName; Kind=.
 ```
@@ -47,7 +46,6 @@ If you choose to follow this bad path to an whitelist the record(s), don't bllam
 
 OOh don't forget to disable the logging or your disk will soon be filled with a log
 
-```
-lang=shell
+```shell
 sudo rec_control trace-regex
 ```
