@@ -1,0 +1,10 @@
+rpzMaster(
+    {
+        "188.176.49.219:5303"
+    },
+    "typosquatting.mypdns.cloud",
+    {
+        refresh="600",
+        axfrTimeout="600"
+    }
+)

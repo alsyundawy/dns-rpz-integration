@@ -1,7 +1,7 @@
 On arch install **powerdns-recursor**
 
 For Ubuntu, Raspbian, Debian and CentOS, setup the proper repo from
-<repo.powerdns.com>
+repo.powerdns.com
 
 Move everything here to /etc/powerdns, except the readme of course
 set everything to the root group
