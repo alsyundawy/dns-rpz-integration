@@ -3,7 +3,7 @@ Installation
 
 To help building this documentation you can make a local ``make html`` in your virtual env for previewing before contributing.
 
-	1. Clone the `DNS RPZ integration`_ from Github	``git clone https://github.com/spirillen/dns-rpz-integration.git``
+	1. Clone the `DNS RPZ integration`_ from My Privacy DNS	``git clone https://mypdns.org/rpz/dns-rpz-integration.git``
 	2. Enter the new folder ``cd dns-rpz-integration``
 	3. Switch to the command line
 
@@ -16,4 +16,4 @@ To help building this documentation you can make a local ``make html`` in your v
 :doc: readme.md
 
 
-.. _DNS RPZ integration: https://github.com/spirillen/dns-rpz-integration.git
+.. _DNS RPZ integration: https://mypdns.org/rpz/dns-rpz-integration.git

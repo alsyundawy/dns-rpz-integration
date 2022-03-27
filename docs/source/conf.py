@@ -21,7 +21,7 @@
 
 from recommonmark.parser import CommonMarkParser
 project = 'Integration of DNS RPZ'
-copyright = '2019, mypdns.org'
+copyright = 'https://mypdns.org'
 author = 'mypdns.org'
 
 # The short X.Y version
